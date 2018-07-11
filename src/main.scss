@@ -1,3 +1,16 @@
-body {
-  background-color: #333;
+// Container SCSS
+.appContainer {
+  display: flex;
+  height: 100%;
 }
+
+// NavSidebar SCSS
+.navSideBar {
+  width: 200px;
+
+  .sideBarItem {
+    text-decoration: none;
+    color: #333;
+  }
+}
+

@@ -2,8 +2,9 @@
   "presets": [
     [
       "env",
-      { "targets": { "browsers": ["last 5 versions"] }, "debug": true }
+      { "targets": { "browsers": ["last 2 versions"] }, "debug": false }
     ],
+    "stage-2",
     "babel-preset-react"
   ]
 }

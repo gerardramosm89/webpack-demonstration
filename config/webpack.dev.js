@@ -11,6 +11,7 @@ module.exports = {
   devServer: {
     contentBase: "dist"
   },
+  devtool: 'source-map',
   module: {
     rules: [
       {
@@ -65,5 +66,6 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
+  watch: true,
 }

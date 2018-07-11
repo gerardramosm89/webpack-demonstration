@@ -24,10 +24,20 @@
     "file-loader": "^1.1.11",
     "html-loader": "^0.5.5",
     "node-sass": "^4.7.2",
+    "react-redux": "^5.0.7",
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.0",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.2",
     "webpack": "^3.11.0",
     "webpack-cli": "^2.0.10",
     "webpack-dev-server": "^2.11.2"
+  },
+  "devDependencies": {
+    "babel-preset-stage-2": "^6.24.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1"
   }
 }
